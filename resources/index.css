@@ -1,5 +1,5 @@
-body {
-    background-color: gray;
+.top {
+    background: blueviolet url(resources\images\flatiron_bldg.png);
 }
 .header {
     font-family: Helvetica;
@@ -8,11 +8,13 @@ body {
     color: white;
     text-align: center; 
 }
-.nav p a {
+.nav p {
     text-align: center;
+    }
+.nav p a {
     font-family: Helvetica;
     font-size: 18px;
-    color: white !important;
+    color: white;
 }
 .process {
     font-family: Helvetica;
@@ -25,6 +27,9 @@ body {
 .new_york {
     font-family: Helvetica;
     text-align: center;
+}
+.new_york h2 {
+    background-image: url();
 }
 .new_york h3 {
     font-size: 23px;
